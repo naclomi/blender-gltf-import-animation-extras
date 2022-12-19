@@ -36,12 +36,3 @@ class glTF2ImportUserExtension:
         for action in gltf.action_cache.values():
             set_extras(action, extras)
 
-def register():
-    pass
-
-def unregister():
-    pass
-
-if __name__ == '__main__':
-    register()
-
